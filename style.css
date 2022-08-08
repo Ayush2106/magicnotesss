@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* max-height: 100%; */
+
+}
+.games {
+    content: center
+    ;
+}
+#track {
+   margin-left: 18%;
+    height: 100vh;
+    max-width: 100%;
+    background-size: contain;
+    overflow: hidden;
+    
+}   
+  #bluecar {
+        height: 100px;
+        width: 130px;
+        position: relative;
+       margin-left: 18%;
+       top: 0px;
+       left: 0px;
+       animation: move 1s linear  infinite  ;
+       
+    }
+    #bluecar img {
+       
+        width: 49px;
+        margin-left: 189px; 
+   
+
+    }
+    @keyframes move {
+       0%{
+            top: 0px;
+        }
+        100%{
+            top: -631px;
+        }
+        
+    }
+#race {
+    height: 100px;
+    width: 130px;
+    
+    position: relative;
+   margin-left: 18%;
+   left: 0px;;
+   top : -210px;
+}
+#race img {
+    width: 60px;
+    margin-left: 386px;
+}
